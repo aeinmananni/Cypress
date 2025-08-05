@@ -1,9 +1,7 @@
+import { Notes } from './components';
+
 export default function App() {
-  return (
-    <div>
-      <h1>APP</h1>
-    </div>
-  );
+  return <Notes />;
 }
 
 //npm install cypress --save-dev or npx cypress install
