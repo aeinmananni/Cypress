@@ -1,6 +1,6 @@
 export default function Modal() {
   return (
-    <div className="w-1/5 h-max border-2 border-purple-500 rounded-lg absolute left-40 p-3">
+    <div className="w-1/5 h-max bg-pink-200 border-2 border-purple-500 rounded-lg absolute left-40 p-3">
       <div className="flex flex-col gap-2 w-full">
         <label>Title</label>
         <input className="w-full border border-gray-500 p-2 outline-none text-gray-500 focus:ring-2 ring-purple-600" />
